@@ -3,6 +3,23 @@
 ## Описание проекта
 Компания «ТелеДом» хочет снизить отток клиентов, предлагая персонализированные скидки и специальные условия пользователям, которые собираются расторгнуть договор. Для этого требуется модель машинного обучения, которая сможет предсказывать уход клиента на основе его данных и истории использования услуг.
 
+## Навыки и инструменты
+* pandas
+* NumPy
+* matplotlib, seaborn
+* phik (корреляционный анализ)
+* Scikit-learn (Pipeline, GridSearchCV, cross-validation, preprocessing)
+* Imbalanced-learn (SMOTE)
+* CatBoost
+* LightGBM
+* Random Forest
+* Gradient Boosting
+* Logistic Regression
+* SVM
+* KNN
+* ROC-AUC, Confusion Matrix, Classification Report
+* PyTorch
+
 ## Данные
 **Для обучения модели предоставлены 4 таблицы:**
 
@@ -28,23 +45,6 @@
 * Оценивается метрика AUC-ROC (целевое значение ≥ 0.85).
 5. Выбор лучшей модели
 * Оценка на тестовой выборке, анализ важности признаков.
-
-## Навыки и инструменты
-* pandas
-* NumPy
-* matplotlib, seaborn
-* phik (корреляционный анализ)
-* Scikit-learn (Pipeline, GridSearchCV, cross-validation, preprocessing)
-* Imbalanced-learn (SMOTE)
-* CatBoost
-* LightGBM
-* Random Forest
-* Gradient Boosting
-* Logistic Regression
-* SVM
-* KNN
-* ROC-AUC, Confusion Matrix, Classification Report
-* PyTorch
 
 ## Анализ факторов оттока:
 **Наиболее значимые факторы оттока:**
